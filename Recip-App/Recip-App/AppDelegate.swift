@@ -17,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //Liked recipe save in UserDefaults
+        if let recipeLiked = ((UserDefaults.standard.value(forKey: "likedRecipe") as? [String])) {
+            GlobalVariable.recipeLiked = recipeLiked
+        }
         return true
     }
 

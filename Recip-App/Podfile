@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+
+target 'Recip-App' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for Recip-App
+  pod 'Alamofire'
+  pod 'AlamofireMapper'
+  pod 'ObjectMapper', '~> 3.4'
+  pod 'AlamofireObjectMapper'
+  pod 'AlamofireImage', '~> 3.5'
+  
+  target 'Recip-AppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+  
+end
