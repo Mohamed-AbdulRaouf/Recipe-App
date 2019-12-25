@@ -67,6 +67,7 @@
 		D9627C5523B2CAF600285A06 /* UIButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9627C5123B2CAF600285A06 /* UIButtonStyle.swift */; };
 		D9627C5723B2CBC900285A06 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9627C5623B2CBC900285A06 /* RecipeViewController.swift */; };
 		D9627C5A23B2D01400285A06 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9627C5C23B2D01400285A06 /* Localizable.strings */; };
+		D9DF8F1D23B31F5D001A578F /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DF8F1C23B31F5D001A578F /* MainController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +150,7 @@
 		D9627C5623B2CBC900285A06 /* RecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 		D9627C5B23B2D01400285A06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D9627C5D23B2D05500285A06 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D9DF8F1C23B31F5D001A578F /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +252,7 @@
 		D9627BEF23B2C9EF00285A06 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D9DF8F1C23B31F5D001A578F /* MainController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -523,6 +526,7 @@
 				D9627C3623B2CA6600285A06 /* FASAT.swift in Sources */,
 				D9627C2C23B2CA6600285A06 /* FOLFD.swift in Sources */,
 				D9627C2423B2CA6600285A06 /* FOLDFE.swift in Sources */,
+				D9DF8F1D23B31F5D001A578F /* MainController.swift in Sources */,
 				D9627C4923B2CA8300285A06 /* LoadMoreControl.swift in Sources */,
 				D9627BD323B2C6CA00285A06 /* Recip_App.xcdatamodeld in Sources */,
 				D9627C5223B2CAF600285A06 /* UICOlorExtension.swift in Sources */,

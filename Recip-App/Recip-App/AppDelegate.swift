@@ -21,6 +21,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if let recipeLiked = ((UserDefaults.standard.value(forKey: "likedRecipe") as? [String])) {
             GlobalVariable.recipeLiked = recipeLiked
         }
+        // change color for NavigationBar
+        UINavigationBar.appearance().barTintColor = UIColor(hexString: "5ac15b").withAlphaComponent(1) //UIColor(red: 32, green: 32, blue: 32, alpha: 1)
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        // change color for SearchBar
+        UISearchBar.appearance().backgroundColor = UIColor(hexString: "bfea1f").withAlphaComponent(1)
         return true
     }
 
