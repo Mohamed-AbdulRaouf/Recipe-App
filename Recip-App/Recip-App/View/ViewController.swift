@@ -106,8 +106,11 @@ extension ViewController : UISearchBarDelegate {
         }
     }
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.text = ""
         self.tableViewBar.isHidden = true
         view.endEditing(true)
+        self.searchResult = EdamamModel()
+        searchTableView.reloadData()
     }
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         if searchBar.text == "" {
